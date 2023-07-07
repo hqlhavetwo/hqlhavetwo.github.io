@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>信用卡申请</title>
+    <style>
+        body {
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" preserveAspectRatio="none"><rect width="1000" height="30" fill="lightseagreen"/><path d="M0 30 Q500 130 ,1000 30" stroke="transparent" fill="lightseagreen"/></svg>');
+            background-size: 100vw 100vh;
+            background-repeat: no-repeat;
+            background-color: #f8f9fa;
+        }
+
+
+
+        .circle {
+            width: 120px;
+            height: 120px;
+            border: 5px solid orange;
+            border-radius: 50%;
+            border-bottom: none;
+            /*居中*/
+            position: fixed;
+            top: 10%;
+            left: 50%;
+            margin-left: -60px;
+            /*文字居中*/
+            text-align: center;
+        }
+
+        .circle span {
+            /*字体字号*/
+            font-size: large;
+            width: 100px;
+            /*定位*/
+            color: #f8f9fa;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .my-text {
+            position: fixed;
+            width: 50vw;
+            top: 50vh;
+            left: 50%;
+            margin-left: -25vw
+        }
+
+        .my-text p {
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="circle">
+        <span>10,000元</h2>
+    </div>
+    <div class="my-text">
+        <p>恭喜你！</p>
+        您申请的信用卡已通过我行初审，初审额度为：<span style="color:red;">10000</span>元，请注意接听我行工作人员电话
+    </div>
+</body>
+
+</html>
